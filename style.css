@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-image: url(/images/concert.jpg);
+
+}
+
+h1{
+    font-size: 5rem;
+    color: bisque;
+    text-shadow: 3px 0 black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.drum{
+    outline: none;
+    border: 10px solid black;
+    font-size: 5rem;
+    line-height: 2;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px 0 black;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+footer{
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+.set{
+    margin: 10% auto
+}
+
+.pressed{
+    box-shadow: 0 3px 4px 0 rgb(235, 24, 24);
+    opacity: 0.6;
+}
